@@ -15,3 +15,12 @@ jQuery( document ).ready(function() {
 });
 </script>
 ```
+## Tag img
+Modificare i tag img sostituendo l'attributo *src* con *data-src* e la classe *lazyload*
+```
+<!-- Senza lazyload --!>
+<img src="path-to-img" />
+
+<!-- Con lazyload --!>
+<img data-src="path-to-img" class="lazyload" />
+``` 

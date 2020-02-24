@@ -1,5 +1,7 @@
-# Magento 1 Simple lazy loading
-Questo simple Lazy Loading per Magento 1 permette di vedere
+# Magento 1 Simple Lazy Loading
+Questo Simple Lazy Loading per Magento 1 permette di rimandare il caricamento delle immagini quando il browser 
+ha già renderizzato il documento.
+In questo modo il PageSpeedInsight non vede più il problema del *defer offscreen images*
 
 ## Script JS
 Inserire lo script in fondo al file app/code/design/frontend/rwd/*theme_name*/template/page/html/footer.phtml
